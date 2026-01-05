@@ -1,1 +1,0 @@
-This folder mainly contains a html and a text file describing about HTML Lits and its types.
