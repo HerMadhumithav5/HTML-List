@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lists</title>
+  </head>
+  <body>
+    <!-- Task 1 -->
+    <dl>
+      <dt style="font-weight: bolder">Preceding Text</dt>
+      <ol type="I">
+        <li>List Item 1</li>
+        <ol type="a">
+          <li>Nested Item 1.1</li>
+          <li>Nested Item 1.2</li>
+        </ol>
+        <li>List Item 2</li>
+        <ol>
+          <li>Nested Item 2.1</li>
+          <li>Nested Item 2.2</li>
+          <ul type="circle">
+            <li>Nested Item 2.2.1</li>
+            <li>Nested Item 2.2.2</li>
+            <ul>
+              <li>Nested Item 2.2.2.1</li>
+              <li>Nested Item 2.2.2.2</li>
+            </ul>
+            <li>Nested Item 2.2.3</li>
+          </ul>
+          <li>Nested Item 2.3</li>
+        </ol>
+        <li>List Item 3</li>
+        <ul type="disc">
+          <li>Nested Item 3.1</li>
+          <li>Nested Item 3.2</li>
+          <li>Nested Item 3.3</li>
+        </ul>
+      </ol>
+    </dl>
+
+    <!-- Task 2 -->
+    <hr />
+    <h3>A list of things you need to learn to become a web developer:</h3>
+    <ol>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Javascript</li>
+      <ul>
+        <li>VueJS</li>
+        <li>ReactJS</li>
+        <li>AngularJS</li>
+      </ul>
+      <li>Git</li>
+    </ol>
+
+    <!--Task 3-->
+    <hr />
+    <h2>List Items Test</h2>
+    <ul>
+      <li>1st Level List item A</li>
+      <li>1st Level List item B</li>
+      <li>1st Level List item C</li>
+      <ul style="list-style-type: disc">
+        <li>2nd Level List item A</li>
+        <li>2nd Level List item B</li>
+        <li>2nd Level List item C</li>
+        <ul style="list-style-type: disc">
+          <li>3rd Level List item A</li>
+          <li>3rd Level List item B</li>
+          <li>3rd Level List item C</li>
+        </ul>
+        <li>2nd Level List item D</li>
+        <li>2nd Level List item E</li>
+        <li>2nd Level List item F</li>
+      </ul>
+      <li>1st Level List item D</li>
+      <li>1st Level List item E</li>
+      <li>1st Level List item F</li>
+    </ul>
+
+    <!-- Task 4 -->
+    <hr />
+    <h1>Ordered List Types</h1>
+    <dl>
+      <dt>Default</dt>
+      <br />
+      <ol>
+        <li>Orange</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Apple</li>
+      </ol>
+      <br />
+      <dt>Lower Alphabets</dt>
+      <br />
+      <ol type="a">
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+        <li>Yellow</li>
+      </ol>
+      <br />
+      <dt>Upper Alphabets</dt>
+      <br />
+      <ol type="A">
+        <li>Food</li>
+        <li>House</li>
+        <li>Water</li>
+        <li>Electricity</li>
+        <li>Transportation</li>
+      </ol>
+      <br />
+      <dt>Lower Roman</dt>
+      <br />
+      <ol type="i">
+        <li>CEO</li>
+        <li>Manager</li>
+        <li>Supervisors</li>
+        <li>Workers</li>
+      </ol>
+      <br />
+    </dl>
+
+    <!-- Task 5 -->
+    <hr />
+    <div class="all_list" style="display: flex; flex-direction: row; gap: 50px">
+      <ul>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
+      <ol>
+        <li>1st item</li>
+        <li>2nd item</li>
+        <li>3rd item</li>
+        <li>4th item</li>
+      </ol>
+      <dl>
+        <dt>List item title</dt>
+        <dd>- list item description</dd>
+        <dt>List item title</dt>
+        <dd>- list item description</dd>
+        <dt>List item title</dt>
+        <dd>- list item description</dd>
+      </dl>
+    </div>
+
+    <!-- Task 6 -->
+    <hr />
+    <div
+      class="all_list"
+      style="display: flex; flex-direction: row; gap: 100px"
+    >
+      <div class="ul_list">
+        <h3>Unordered lists</h3>
+        <dl>
+          <dt style="font-weight: bold">Disc</dt>
+          <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+          <br />
+          <dt style="font-weight: bold">Square</dt>
+          <ul style="list-style-type: square">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+          <br />
+          <dt style="font-weight: bold">Circle</dt>
+          <ul style="list-style-type: circle">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+          <br />
+          <dt style="font-weight: bold">None - no bullets</dt>
+          <dd>First item</dd>
+          <dd>Second item</dd>
+          <dd>Third item</dd>
+        </dl>
+      </div>
+
+      <div class="ol_list">
+        <h3>Ordered lists</h3>
+        <dl>
+          <dt style="font-weight: bold">Decimal</dt>
+          <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ol>
+          <br />
+          <dt style="font-weight: bold">Decimal with leading zeroes</dt>
+          <ol style="list-style-type: decimal-leading-zero">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ol>
+          <br />
+          <dt style="font-weight: bold">Lowercase ascii letters</dt>
+          <ol type="a">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ol>
+          <br />
+          <dt style="font-weight: bold">Lowercase roman numerals</dt>
+          <ol type="i">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ol>
+          <br />
+        </dl>
+      </div>
+    </div>
+
+    <!-- Task 7 -->
+    <hr />
+    <h2 style="margin-left: 50px">Nested List</h2>
+    <ol type="I" style="margin-left: 50px">
+      <li>Background Skills</li>
+      <ol type="A">
+        <li>Unix Commands</li>
+        <li>Vim Test Editors</li>
+      </ol>
+      <li>HTML</li>
+      <ol type="A">
+        <li>Minimal Page</li>
+        <li>Headings</li>
+        <li>Elements</li>
+        <li>Lists</li>
+        <ol type="i">
+          <li>Unordered</li>
+          <li>Ordered</li>
+          <li>Definition</li>
+          <li>Nested</li>
+        </ol>
+        <li>Links</li>
+        <ol type="i">
+          <li>Absolute</li>
+          <li>Relative</li>
+        </ol>
+        <li>Images</li>
+      </ol>
+      <li>CSS</li>
+      <ol type="A">
+        <li>Anatomy</li>
+        <li>Basic Selectors</li>
+        <ol type="i">
+          <li>Element</li>
+          <li>Class</li>
+          <li>ID</li>
+          <li>Group</li>
+        </ol>
+        <li>The DOM</li>
+        <li>Advanced Selectors</li>
+        <li>Box Model</li>
+      </ol>
+      <li>Programming</li>
+      <ol type="A">
+        <li>Python</li>
+        <li>Javascript</li>
+      </ol>
+      <li>Database</li>
+      <ol type="A">
+        <li>Flat File</li>
+        <li>Relational</li>
+      </ol>
+    </ol>
+    <hr />
+  </body>
+</html>
